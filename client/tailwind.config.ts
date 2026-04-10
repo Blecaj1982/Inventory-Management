@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+/*import type { Config } from "tailwindcss";
 import { createThemes } from "tw-colors";
 import colors from "tailwindcss/colors";
 
@@ -72,4 +72,4 @@ const config: Config = {
   plugins: [createThemes(themes)],
 };
 
-export default config;
+export default config; */
