@@ -1,5 +1,5 @@
 "use client";
-import { Bell, Menu } from 'lucide-react'
+import { Bell, Menu, Sun } from 'lucide-react'
 import React from 'react'
 
 const Navbar = () => {
@@ -16,6 +16,17 @@ const Navbar = () => {
         
             <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                 <Bell className="text-gray-500" size={20} />
+            </div>
+        </div>
+
+            {/* RIGHT SIDE */}
+        <div className="flex justify-between items-center gap-5">
+            <div className="hidden md:flex justify-between items-center gap-5">
+                <div>
+                    <button onClick={() => {}}>
+                        <Sun className="cursor-pointer text-gray-500" size={24} />
+                    </button>
+                </div>
             </div>
         </div>
     </div>
